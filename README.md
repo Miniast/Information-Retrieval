@@ -10,7 +10,7 @@
 
 为了保证信息检索系统的速度和效率，通常要对文档库中的文档建立索引。**倒排索引**（inversed index）是目前大多数信息检索系统所使用的索引机制。倒排索引的数据结构从逻辑上可分为两部分：一部分是索引，其中列出了文档库中所有的索引项。另一部分由多个位置表组成，每个位置表和索引中的某个索引项对应，其中记录了所有出现过该索引项的文档以及出现位置。
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220613155105936.png" alt="image-20220613155105936" style="zoom:50%;" />
+<img src="images\image-20220613155105936.png" alt="image-20220613155105936" style="zoom:50%;" />
 
 <center style = 'font-weight:bolder'>Fig 1 倒排索引机制</center>
 
@@ -54,7 +54,7 @@
    score(q,d) = cos(\theta) = \frac{\sum_{i=1}^{n} W_{i,q}W{i,d}}{\sqrt{\sum_{i=1}^{n} W_{i,q}^2}\cdot \sqrt{\sum_{i=1}^{n} W_{i,d}^2}}
    $$
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220613155419358.png" alt="image-20220613155419358" style="zoom:50%;" />
+<img src="images\image-20220613155419358.png" alt="image-20220613155419358" style="zoom:50%;" />
 
 <center style = 'font-weight:bolder'>Fig 2 文档和查询语句的向量表示</center>
 
@@ -92,7 +92,7 @@ Information retrieval - : 总文件夹
 
   **Selenium是一个用于测试网站的自动化测试工具**，支持各种浏览器包括Chrome、Firefox、Safari等主流界面浏览器，同时也支持phantomJS无界面浏览器。Selenium通过模拟浏览器真实操作进行自动化测试，可以访问动态加载的网页数据，并能实现包括点击、拖动、停留、数据录入等事件，协助数据爬取工作完成。
 
-  <img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220614002237955.png" alt="image-20220614002237955" style="zoom:50%;" />
+  <img src="images\image-20220614002237955.png" alt="image-20220614002237955" style="zoom:50%;" />
 
 <center style = 'font-weight:bolder'>Fig 3 Requests</center>
 
@@ -217,7 +217,7 @@ Information retrieval - : 总文件夹
 
 基于倒排索引机制和向量空间检索匹配算法进行查询，并生成日志文件。具体算法原理已在前文中进行介绍。
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220614002402200.png" alt="image-20220614002402200" style="zoom:50%;" />
+<img src="images\image-20220614002402200.png" alt="image-20220614002402200" style="zoom:50%;" />
 
 <center style = 'font-weight:bolder'>Fig 4 倒排索引</center>
 
@@ -292,7 +292,7 @@ Information retrieval - : 总文件夹
 
   **Naive UI 是一个 Vue3 的组件库。**Naive UI有超过 80 个组件，主题可调，全量使用 TypeScript 编写，使用 MIT license 许可证书。
 
-  <img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220614002519537.png" alt="image-20220614002519537" style="zoom: 33%;" />
+  <img src="images\image-20220614002519537.png" alt="image-20220614002519537" style="zoom: 33%;" />
 
   <center style = 'font-weight:bolder'>Fig 5 VUE3.0</center>
 
@@ -308,7 +308,7 @@ Information retrieval - : 总文件夹
 
 模块文件见WebGUI文件夹下的web_client中。遵守Vue@cli脚手架项目设计规范，具体可查阅 Vue@cli use Vue-ts 项目标准资料。
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220614002125736.png" alt="image-20220614002125736" style="zoom: 67%;" />
+<img src="images\image-20220614002125736.png" alt="image-20220614002125736" style="zoom: 67%;" />
 
 <center style = 'font-weight:bolder'>Fig 6 web-client文件结构</center>
 
@@ -372,13 +372,13 @@ Information retrieval - : 总文件夹
 
 **输入信息进行检索：**唐山打人事件
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220614004035501.png" alt="image-20220614004035501" style="zoom: 25%;" />
+<img src="images\image-20220614004035501.png" alt="image-20220614004035501" style="zoom: 25%;" />
 
 <center style = 'font-weight:bolder'>Fig 7 前端未检索窗口1</center>
 
 **结果：**（输出相关度最高的前5条信息）
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220614004124836.png" alt="image-20220614004124836" style="zoom:25%;" />
+<img src="images\image-20220614004124836.png" alt="image-20220614004124836" style="zoom:25%;" />
 
 <center style = 'font-weight:bolder'>Fig 8 前端检索窗口1</center>
 
@@ -388,7 +388,7 @@ Information retrieval - : 总文件夹
 
 **结果：**
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20220614004237181.png" alt="image-20220614004237181" style="zoom:25%;" />
+<img src="images\image-20220614004237181.png" alt="image-20220614004237181" style="zoom:25%;" />
 
 <center style = 'font-weight:bolder'>Fig 9 前端检索窗口2</center>
 
